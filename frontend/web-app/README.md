@@ -1,6 +1,6 @@
 # Web App
 
-Next.js-based web frontend skeleton for the learning platform.
+Next.js + TypeScript-based web frontend skeleton for the learning platform.
 
 ## Scripts
 
