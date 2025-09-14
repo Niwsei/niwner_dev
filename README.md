@@ -5,7 +5,7 @@ This repository provides a starting point for a microservices-based learning pla
 ## Structure
 
 - `backend/` – microservices for core platform domains.
-  - `user-service/` – authentication & user management (Express.js).
+  - `user-service/` – authentication & user management (Express.js + TypeScript + Prisma).
   - `course-service/` – course management service (Express.js).
   - `payment-service/` – payment processing (Express.js).
   - `logic-service/` – logic training features (Express.js).
@@ -27,10 +27,11 @@ Each service can be run independently. For example:
 ```bash
 cd backend/user-service
 npm install
-npm start
+npm run prisma
+npm run dev
 ```
 
-This starts the User Service on port `3000` with a `/health` endpoint.
+This starts the User Service on port `3000` with `/health` and `/users` endpoints.
 
 ## Future Work
 
