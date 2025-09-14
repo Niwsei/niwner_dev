@@ -7,6 +7,15 @@ This repository provides a starting point for a microservices-based learning pla
 - `backend/` – microservices for core platform domains.
   - `user-service/` – authentication & user management (Express.js).
   - `course-service/` – course management service (Express.js).
+  - `payment-service/` – payment processing (Express.js).
+  - `logic-service/` – logic training features (Express.js).
+  - `flow-service/` – workflow and process tools (Express.js).
+  - `project-service/` – project management (Express.js).
+  - `gamification-service/` – achievements and leaderboards (Express.js).
+  - `community-service/` – chat and community forums (Express.js).
+  - `shop-service/` – e-commerce operations (Express.js).
+  - `analytics-service/` – reporting and metrics (Express.js).
+  - `ai-service/` – AI and recommendation engine (Express.js).
 - `frontend/` – frontend applications.
   - `web-app/` – Next.js web application skeleton.
 - `infrastructure/` – infrastructure as code and deployment configs.
