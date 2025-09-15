@@ -1,8 +1,11 @@
-export default function Certificate() {
+import Certificate from '../../components/cert/Certificate';
+import PageHeader from '../../components/ui/PageHeader';
+
+export default function CertificatePage() {
   return (
     <main>
-      <h1>Certificate Viewer</h1>
-      <p>TODO: Implement certificate viewer feature.</p>
+      <PageHeader title="Certificate" subtitle="Download your completion certificate" />
+      <Certificate name="Demo Learner" course="Intro to Logic" />
     </main>
   );
 }
